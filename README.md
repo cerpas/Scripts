@@ -1,15 +1,15 @@
-# 📝 Automatización de Recordatorios para Google Classroom
+# Automatización de Recordatorios para Google Classroom
 
 Este script de **Google Apps Script** se conecta directamente a un curso de Google Classroom para identificar de forma automática a los alumnos que tienen tareas pendientes o vencidas y enviarles un recordatorio personalizado por correo electrónico a través de Gmail.
 
-## ✨ Características
+## Características
 
-*   🎯 **Filtro por Curso Único:** Revisa únicamente el grupo o materia que tú decidas.
-*   📅 **Rango de Fechas Inteligente:** Permite delimitar la revisión a un periodo específico (ideal para evaluar por parciales).
-*   🚫 **Exclusión de Exámenes:** Ignora automáticamente exámenes, quizes o evaluaciones mediante filtros de texto en el título.
-*   🔒 **Filtro de Entrega Real:** Solo envía correos a los alumnos con estatus `Sin entregar` (`CREATED` o `NEW`), evitando molestar a quienes ya enviaron su trabajo (aunque no esté calificado).
+*   **Filtro por Curso Único:** Revisa únicamente el grupo o materia que tú decidas.
+*   **Rango de Fechas Inteligente:** Permite delimitar la revisión a un periodo específico (ideal para evaluar por parciales).
+*   **Exclusión de Exámenes:** Ignora automáticamente exámenes, quizes o evaluaciones mediante filtros de texto en el título.
+*   **Filtro de Entrega Real:** Solo envía correos a los alumnos con estatus `Sin entregar` (`CREATED` o `NEW`), evitando molestar a quienes ya enviaron su trabajo (aunque no esté calificado).
 
-## 🚀 Guía de Instalación y Configuración
+## Guía de Instalación y Configuración
 
 Sigue estos pasos para poner a funcionar el script en tu cuenta institucional:
 
@@ -46,9 +46,9 @@ var FECHA_FIN    = new Date(2026, 9, 26);  // 26 de Octubre
 2. Haz clic en **Ejecutar**.
 3. **Otorgar Permisos:** La primera vez, Google te solicitará autorizar al script para enviar correos en tu nombre. Sigue los pasos en pantalla para conceder el acceso seguro.
 
-## 🛠️ Notas de Desarrollo (Meses en JavaScript)
+## Notas de Desarrollo (Meses en JavaScript)
 Al configurar el rango de fechas, ten en cuenta la regla de indexación de meses en JavaScript:
 *   `0` = Enero, `1` = Febrero, ..., `9` = Octubre, `10` = Noviembre, `11` = Diciembre.
 
-## 📄 Licencia
+## Licencia
 Este proyecto es de uso libre y educativo para profesores que buscan optimizar sus tiempos de gestión escolar.
