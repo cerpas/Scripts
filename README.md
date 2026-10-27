@@ -39,7 +39,7 @@ var FECHA_FIN    = new Date(2026, 9, 26);  // 26 de Octubre
 ```
 
 ### 4. Ejecución
-1. En la barra de herramientas superior, asegúrate de seleccionar la función `enviarAvisosUnSoloCurso` o `enviarAvisosClasroomAutomatico` para enviar a todos los cursos activos en classroom o solo al curso que indique en el script `enviarAvisosUnSoloCurso`.
+1. En la barra de herramientas superior, asegúrate de seleccionar la función `enviarAvisosUnSoloCurso`: esta función envía correos solo al curso especificado en la variable NOMBRE_CURSO_A_FILTRAR o `enviarAvisosClasroomAutomatico` para enviar a todos los cursos activos en classroom del usuario.
 2. Presiona el botón **Ejecutar**.
 3. **Autorización:** Al procesarse por primera vez, Google desplegará una ventana de seguridad solicitando permisos para que el script pueda enviar correos electrónicos en tu nombre a través de Gmail. Otorga los accesos institucionales requeridos para finalizar.
 
