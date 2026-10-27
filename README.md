@@ -16,7 +16,7 @@ Sigue estos pasos para poner a funcionar el script en tu cuenta institucional:
 ### 1. Crear el entorno en Google Apps Script
 1. Ve a [Google Apps Script](https://google.com) e inicia sesión con tu cuenta de profesor.
 2. Haz clic en **Nuevo proyecto**.
-3. Borra el código por defecto y pega el contenido del archivo `codigo.js` de este repositorio.
+3. Borra el código por defecto y pega el contenido del archivo `enviarAvisosClasroomAutomatico.js` o `enviarAvisosUnSoloCurso.js` de este repositorio.
 
 ### 2. Activar la API de Google Classroom
 1. En la barra lateral izquierda del editor de Apps Script, haz clic en el ícono **+** junto a **Servicios**.
