@@ -42,7 +42,7 @@ var FECHA_FIN    = new Date(2026, 9, 26);  // 26 de Octubre
 ```
 
 ### 4. Ejecución
-1. En la barra de herramientas superior, asegúrate de seleccionar la función `enviarAvisosPorRangoDeFechas`.
+1. En la barra de herramientas superior, asegúrate de seleccionar la función `enviarAvisosPorRangoDeFechas` o `enviarAvisosClasroomAutomatico` para enviar a todos los cursos activos en classroom o solo al curso que indique en el script `enviarAvisosUnSoloCurso`.
 2. Haz clic en **Ejecutar**.
 3. **Otorgar Permisos:** La primera vez, Google te solicitará autorizar al script para enviar correos en tu nombre. Sigue los pasos en pantalla para conceder el acceso seguro.
 
