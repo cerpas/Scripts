@@ -22,7 +22,10 @@ function enviarAvisosClasroomAutomatico() {
     if (!tareas) return;
     
     tareas.forEach(function(tarea) {
-      // FILTRO 1: EXCLUSIÓN DE EXÁMENES
+      // FILTRO DE PARCIAL: Validar si el título de la tarea contiene la palabra clave
+      var tituloTarea = tarea.title.toLowerCase();
+    
+        // FILTRO 1: EXCLUSIÓN DE EXÁMENES
       // Revisa si el título contiene alguna de tus palabras prohibidas
       var contienePalabraExcluida = PALABRAS_A_EXCLUIR.some(function(palabra) {
         return tituloTarea.indexOf(palabra) !== -1;
