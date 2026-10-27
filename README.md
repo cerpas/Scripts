@@ -43,12 +43,12 @@ var FECHA_FIN    = new Date(2026, 9, 26);  // 26 de Octubre
 
 ### 4. Ejecución
 1. En la barra de herramientas superior, asegúrate de seleccionar la función `enviarAvisosUnSoloCurso` o `enviarAvisosClasroomAutomatico` para enviar a todos los cursos activos en classroom o solo al curso que indique en el script `enviarAvisosUnSoloCurso`.
-2. Haz clic en **Ejecutar**.
-3. **Otorgar Permisos:** La primera vez, Google te solicitará autorizar al script para enviar correos en tu nombre. Sigue los pasos en pantalla para conceder el acceso seguro.
+2. Presiona el botón **Ejecutar**.
+3. **Autorización:** Al procesarse por primera vez, Google desplegará una ventana de seguridad solicitando permisos para que el script pueda enviar correos electrónicos en tu nombre a través de Gmail. Otorga los accesos institucionales requeridos para finalizar.
 
-## Notas de Desarrollo (Meses en JavaScript)
-Al configurar el rango de fechas, ten en cuenta la regla de indexación de meses en JavaScript:
-*   `0` = Enero, `1` = Febrero, ..., `9` = Octubre, `10` = Noviembre, `11` = Diciembre.
+## Nota Técnica: Conteo de Meses
+Recuerda que dentro del objeto `new Date()` de JavaScript, la indexación de los meses inicia en cero:
+*   `0` = Enero, `1` = Febrero ... `8` = Septiembre, `9` = Octubre, `10` = Noviembre, `11` = Diciembr
 
 ## Licencia
 Este proyecto es de uso libre y educativo para profesores que buscan optimizar sus tiempos de gestión escolar.
