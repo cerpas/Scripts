@@ -30,9 +30,6 @@ Modifica las variables de configuración al inicio del script según tus necesid
 // Nombre exacto de tu clase en Classroom
 var NOMBRE_CURSO_A_FILTRAR = "Programación lógica y funcional"; 
 
-// Palabra clave para delimitar el parcial (ej. "Segundo Parcial")
-var PALABRA_CLAVE_PARCIAL   = "Segundo Parcial"; 
-
 // Palabras clave para ignorar exámenes o evaluaciones
 var PALABRAS_A_EXCLUIR     = ["examen", "evaluacion", "evaluación", "quiz", "prueba"]; 
 
