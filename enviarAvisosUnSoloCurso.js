@@ -1,6 +1,6 @@
 function enviarAvisosUnSoloCurso() {
   // === CONFIGURACIÓN: ESCRIBE AQUÍ EL NOMBRE EXACTO DE TU CLASE ===
-  var NOMBRE_CURSO_A_FILTRAR = "Tópicos avanzados de programación"; 
+  var NOMBRE_CURSO_A_FILTRAR = "Programación lógica y funcional"; 
   // =============================================================
 
   // Palabras que si aparecen en el título, la tarea SE IGNORA por completo
@@ -44,6 +44,10 @@ function enviarAvisosUnSoloCurso() {
   }
   
   tareas.forEach(function(tarea) {
+
+    // FILTRO DE PARCIAL: Validar si el título de la tarea contiene la palabra clave
+      var tituloTarea = tarea.title.toLowerCase();
+ 
     // FILTRO 1: EXCLUSIÓN DE EXÁMENES
     // Revisa si el título contiene alguna de tus palabras prohibidas
     var contienePalabraExcluida = PALABRAS_A_EXCLUIR.some(function(palabra) {
