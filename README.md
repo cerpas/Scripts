@@ -28,7 +28,7 @@ Modifica las variables de configuración al inicio del script según tus necesid
 
 ```javascript
 // Nombre exacto de tu clase en Classroom
-var NOMBRE_CURSO_A_FILTRAR = "Matemáticas 3º A"; 
+var NOMBRE_CURSO_A_FILTRAR = "Programación lógica y funcional"; 
 
 // Palabra clave para delimitar el parcial (ej. "Segundo Parcial")
 var PALABRA_CLAVE_PARCIAL   = "Segundo Parcial"; 
